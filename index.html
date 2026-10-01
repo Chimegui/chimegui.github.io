@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Финансовый помощник</title>
+<meta name="description" content="Личный финансовый помощник в Telegram: учёт денег, долгов и платежей в вашей собственной Google-таблице.">
+<style>
+  :root { --bg:#f7f6f2; --card:#ffffff; --text:#1f2421; --muted:#5f6662; --accent:#2f6b4f; --line:#e4e2db; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#151816; --card:#1d211f; --text:#ecefe9; --muted:#a3aaa5; --accent:#7cc4a0; --line:#2c312e; } }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--text); font:17px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+  main { max-width:720px; margin:0 auto; padding:48px 16px 64px; }
+  h1 { font-size:34px; line-height:1.2; margin:0 0 12px; }
+  h2 { font-size:20px; margin:36px 0 10px; }
+  p.lead { font-size:19px; color:var(--muted); margin:0 0 28px; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:14px; padding:20px 22px; margin:14px 0; }
+  ul { padding-left:20px; margin:8px 0; }
+  li { margin:6px 0; }
+  a { color:var(--accent); }
+  footer { margin-top:48px; padding-top:18px; border-top:1px solid var(--line); color:var(--muted); font-size:15px; }
+  .en { color:var(--muted); font-size:15px; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Финансовый помощник</h1>
+  <p class="lead">Личный помощник по деньгам в Telegram. Вы пишете ему как другу — текстом или голосом, — а он ведёт учёт в вашей собственной Google-таблице.</p>
+
+  <div class="card">
+    <h2 style="margin-top:0">Что он делает</h2>
+    <ul>
+      <li>Записывает траты и доходы из обычных сообщений и голосовых.</li>
+      <li>Ведёт счета, долги, кредиты и обязательные платежи, напоминает о сроках.</li>
+      <li>Считает, сколько можно тратить в день, и присылает короткие сводки.</li>
+      <li>Помогает составить план выхода из долгов и копить на цели.</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2 style="margin-top:0">Где хранятся данные</h2>
+    <p>Все ваши финансовые записи лежат только в Google-таблице на <b>вашем</b> Google Диске. Помощник создаёт эту таблицу сам и получает доступ <b>только к ней</b> — не к остальным файлам на Диске. Таблицу можно открыть, исправить или удалить в любой момент.</p>
+  </div>
+
+  <div class="card">
+    <h2 style="margin-top:0">Как подключиться</h2>
+    <ul>
+      <li>Получите приглашение у владельца и напишите боту в Telegram.</li>
+      <li>Откройте присланную ссылку, введите код и нажмите «Разрешить» в Google.</li>
+      <li>Таблица создастся автоматически — можно начинать.</li>
+    </ul>
+  </div>
+
+  <p><a href="privacy.html">Политика конфиденциальности</a></p>
+
+  <p class="en"><b>In English.</b> Financial Assistant is a personal Telegram bot that keeps a user's budget, debts and payments in a Google Sheet created in the user's own Google Drive. It requests only the <code>drive.file</code> scope, so it can access only the spreadsheet it created. See the <a href="privacy.html">Privacy Policy</a>.</p>
+
+  <footer>Контакт: <a href="mailto:jargaljargalsid@gmail.com">jargaljargalsid@gmail.com</a></footer>
+</main>
+</body>
+</html>
